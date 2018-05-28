@@ -1,6 +1,6 @@
 var supertest = require("supertest")
   , should = require("should")
-  , server = supertest.agent("http://google.com/")
+  , server = supertest.agent("http://localhost:8080")
 
 describe("Server launch test",function(){
   it("should return landing page",function(done){
