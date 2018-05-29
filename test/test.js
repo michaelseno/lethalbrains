@@ -29,7 +29,7 @@ describe("Server launch test",function(){
     .expect("Content-type",/text/)
     .expect(403) 
     .end(function(err,res){
-      res.status.should.equal(403)
+      res.status.should.equal(200)
       done()
     })
   })
