@@ -1,0 +1,15 @@
+<testsuites name="Mocha Tests">
+  <testsuite name="Server launch test" tests="4" errors="0" failures="1" skipped="0" timestamp="2018-05-29T06:10:41" time="0.034">
+    <testcase classname="Server launch test" name="should return landing page 1" time="0.017">
+    </testcase>
+    <testcase classname="Server launch test" name="should return landing page 2" time="0.004">
+    </testcase>
+    <testcase classname="Server launch test" name="should return landing page 3" time="0">
+      <failure message="expected 403 to be 200">+200
+-403
+</failure>
+    </testcase>
+    <testcase classname="Server launch test" name="should return landing page 4" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>

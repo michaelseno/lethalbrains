@@ -17,7 +17,7 @@
     "supertest": "^2.0.1"
   },
   "scripts": {
-    "test": "mocha"
+    "start": "JUNIT_REPORT_PATH=test-result/result.xml mocha --colors --reporter mocha-jenkins-reporter"
   },
   "keywords": [],
   "repository": {
