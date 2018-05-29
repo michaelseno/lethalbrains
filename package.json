@@ -13,11 +13,13 @@
     "mocha": "^3.1.2",
     "mocha-jenkins-reporter": "^0.3.7",
     "mocha-junit-reporter": "^1.17.0",
+    "mocha-multi": "^1.0.1",
     "should": "^11.1.1",
     "supertest": "^2.0.1"
   },
   "scripts": {
-    "start": "JUNIT_REPORT_PATH=test-result/result.xml mocha --colors --reporter mocha-jenkins-reporter"
+    "test": "mocha", 
+    "start": "test/test.js"
   },
   "keywords": [],
   "repository": {

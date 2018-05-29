@@ -1,0 +1,41 @@
+    <section class="suite">
+      <h1>Server launch test</h1>
+      <dl>
+        <dt>should return landing page 1</dt>
+        <dd><pre><code>server
+.get(&#x22;/&#x22;)
+.expect(&#x22;Content-type&#x22;,/text/)
+.expect(403) 
+.end(function(err,res){
+  res.status.should.equal(403)
+  done()
+})</code></pre></dd>
+        <dt>should return landing page 2</dt>
+        <dd><pre><code>server
+.get(&#x22;/&#x22;)
+.expect(&#x22;Content-type&#x22;,/text/)
+.expect(403) 
+.end(function(err,res){
+  res.status.should.equal(403)
+  done()
+})</code></pre></dd>
+        <dt>should return landing page 3</dt>
+        <dd><pre><code>server
+.get(&#x22;/&#x22;)
+.expect(&#x22;Content-type&#x22;,/text/)
+.expect(403) 
+.end(function(err,res){
+  res.status.should.equal(403)
+  done()
+})</code></pre></dd>
+        <dt>should return landing page 4</dt>
+        <dd><pre><code>server
+.get(&#x22;/&#x22;)
+.expect(&#x22;Content-type&#x22;,/text/)
+.expect(403) 
+.end(function(err,res){
+  res.status.should.equal(403)
+  done()
+})</code></pre></dd>
+      </dl>
+    </section>
