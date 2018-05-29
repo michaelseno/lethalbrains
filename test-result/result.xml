@@ -1,20 +1,12 @@
 <testsuites name="Mocha Tests">
-  <testsuite name="Server launch test" tests="1" errors="0" failures="1" skipped="0" timestamp="2018-05-29T05:16:26" time="0.023">
-    <testcase classname="Server launch test" name="should return landing page" time="0">
-      <failure message="expected 403 to be 200">+200
--403
-
-    at Assertion.fail (node_modules/should/cjs/should.js:258:17)
-    at Assertion.value (node_modules/should/cjs/should.js:335:19)
-    at Test.&lt;anonymous&gt; (test/test.js:12:25)
-    at Test.assert (node_modules/supertest/lib/test.js:179:6)
-    at assert (node_modules/supertest/lib/test.js:131:12)
-    at node_modules/supertest/lib/test.js:128:5
-    at Test.Request.callback (node_modules/superagent/lib/node/index.js:631:3)
-    at IncomingMessage.&lt;anonymous&gt; (node_modules/superagent/lib/node/index.js:795:18)
-    at endReadableNT (_stream_readable.js:1064:12)
-    at _combinedTickCallback (internal/process/next_tick.js:138:11)
-    at process._tickCallback (internal/process/next_tick.js:180:9)</failure>
+  <testsuite name="Server launch test" tests="4" errors="0" failures="0" skipped="0" timestamp="2018-05-29T05:43:01" time="0.032">
+    <testcase classname="Server launch test" name="should return landing page 1" time="0.017">
+    </testcase>
+    <testcase classname="Server launch test" name="should return landing page 2" time="0.005">
+    </testcase>
+    <testcase classname="Server launch test" name="should return landing page 3" time="0.003">
+    </testcase>
+    <testcase classname="Server launch test" name="should return landing page 4" time="0.003">
     </testcase>
   </testsuite>
 </testsuites>
