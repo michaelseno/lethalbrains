@@ -12,10 +12,11 @@
   "devDependencies": {
     "mocha": "^3.1.2",
     "should": "^11.1.1",
-    "supertest": "^2.0.1"
+    "supertest": "^2.0.1",
+    "mocha-jenkins-reporter": "0.3.12"
   },
   "scripts": {
-    "test": "mocha"
+    "test-jenkins": "JUNIT_REPORT_PATH=/report.xml mocha --colors --reporter mocha-jenkins-reporter"
   },
   "keywords": [],
   "repository": {
