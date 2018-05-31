@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.128" tests="5" failures="0">
+   <testsuite name="Server launch test" timestamp="2018-05-31T02:10:38" tests="5" file="/Users/michaelseno/Documents/mjRepo/lethalbrains/test/test.js" failures="0" time="0.128">
+    <testcase name="Server launch test should return landing page 1st attempt" time="0.113" classname="should return landing page 1st attempt">
+    </testcase>
+    <testcase name="Server launch test should return landing page 2nd attempt" time="0.005" classname="should return landing page 2nd attempt">
+    </testcase>
+    <testcase name="Server launch test should return landing page 3rd attempt" time="0.003" classname="should return landing page 3rd attempt">
+    </testcase>
+    <testcase name="Server launch test should return landing page 4th attempt" time="0.003" classname="should return landing page 4th attempt">
+    </testcase>
+    <testcase name="Server launch test should return landing page 5th attempt" time="0.004" classname="should return landing page 5th attempt">
+    </testcase>
+  </testsuite>
+</testsuites>
