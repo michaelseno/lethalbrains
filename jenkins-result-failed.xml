@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="5" failures="5">
+  <testsuite name="Root Suite" timestamp="2018-06-01T09:01:37" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Server launch test" timestamp="2018-06-01T09:01:37" tests="5" file="/Users/michaelseno/Documents/mjRepo/lethalbrains/test/test.js" failures="5" time="0">
+    <testcase name="Server launch test should return landing page 1st attempt" time="0" classname="should return landing page 1st attempt">
+      <failure><![CDATA[AssertionError: expected 403 to be 200
+    at Assertion.fail (node_modules/should/cjs/should.js:258:17)
+    at Assertion.value (node_modules/should/cjs/should.js:335:19)
+    at Test.<anonymous> (test/test.js:12:25)
+    at Test.assert (node_modules/supertest/lib/test.js:179:6)
+    at assert (node_modules/supertest/lib/test.js:131:12)
+    at /Users/michaelseno/Documents/mjRepo/lethalbrains/node_modules/supertest/lib/test.js:128:5
+    at Test.Request.callback (node_modules/superagent/lib/node/index.js:631:3)
+    at IncomingMessage.<anonymous> (node_modules/superagent/lib/node/index.js:795:18)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)]]></failure>
+    </testcase>
+    <testcase name="Server launch test should return landing page 2nd attempt" time="0" classname="should return landing page 2nd attempt">
+      <failure><![CDATA[AssertionError: expected 403 to be 200
+    at Assertion.fail (node_modules/should/cjs/should.js:258:17)
+    at Assertion.value (node_modules/should/cjs/should.js:335:19)
+    at Test.<anonymous> (test/test.js:22:25)
+    at Test.assert (node_modules/supertest/lib/test.js:179:6)
+    at assert (node_modules/supertest/lib/test.js:131:12)
+    at /Users/michaelseno/Documents/mjRepo/lethalbrains/node_modules/supertest/lib/test.js:128:5
+    at Test.Request.callback (node_modules/superagent/lib/node/index.js:631:3)
+    at IncomingMessage.<anonymous> (node_modules/superagent/lib/node/index.js:795:18)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)]]></failure>
+    </testcase>
+    <testcase name="Server launch test should return landing page 3rd attempt" time="0" classname="should return landing page 3rd attempt">
+      <failure><![CDATA[AssertionError: expected 403 to be 200
+    at Assertion.fail (node_modules/should/cjs/should.js:258:17)
+    at Assertion.value (node_modules/should/cjs/should.js:335:19)
+    at Test.<anonymous> (test/test.js:32:25)
+    at Test.assert (node_modules/supertest/lib/test.js:179:6)
+    at assert (node_modules/supertest/lib/test.js:131:12)
+    at /Users/michaelseno/Documents/mjRepo/lethalbrains/node_modules/supertest/lib/test.js:128:5
+    at Test.Request.callback (node_modules/superagent/lib/node/index.js:631:3)
+    at IncomingMessage.<anonymous> (node_modules/superagent/lib/node/index.js:795:18)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)]]></failure>
+    </testcase>
+    <testcase name="Server launch test should return landing page 4th attempt" time="0" classname="should return landing page 4th attempt">
+      <failure><![CDATA[AssertionError: expected 403 to be 200
+    at Assertion.fail (node_modules/should/cjs/should.js:258:17)
+    at Assertion.value (node_modules/should/cjs/should.js:335:19)
+    at Test.<anonymous> (test/test.js:42:25)
+    at Test.assert (node_modules/supertest/lib/test.js:179:6)
+    at assert (node_modules/supertest/lib/test.js:131:12)
+    at /Users/michaelseno/Documents/mjRepo/lethalbrains/node_modules/supertest/lib/test.js:128:5
+    at Test.Request.callback (node_modules/superagent/lib/node/index.js:631:3)
+    at IncomingMessage.<anonymous> (node_modules/superagent/lib/node/index.js:795:18)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)]]></failure>
+    </testcase>
+    <testcase name="Server launch test should return landing page 5th attempt" time="0" classname="should return landing page 5th attempt">
+      <failure><![CDATA[AssertionError: expected 403 to be 200
+    at Assertion.fail (node_modules/should/cjs/should.js:258:17)
+    at Assertion.value (node_modules/should/cjs/should.js:335:19)
+    at Test.<anonymous> (test/test.js:52:25)
+    at Test.assert (node_modules/supertest/lib/test.js:179:6)
+    at assert (node_modules/supertest/lib/test.js:131:12)
+    at /Users/michaelseno/Documents/mjRepo/lethalbrains/node_modules/supertest/lib/test.js:128:5
+    at Test.Request.callback (node_modules/superagent/lib/node/index.js:631:3)
+    at IncomingMessage.<anonymous> (node_modules/superagent/lib/node/index.js:795:18)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
