@@ -1,0 +1,88 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-06-05T03:41:34.262Z",
+    "end": "2018-06-05T03:41:34.306Z",
+    "duration": 44
+  },
+  "tests": [
+    {
+      "title": "should return landing page 1st attempt",
+      "fullTitle": "Server launch test should return landing page 1st attempt",
+      "duration": 20,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return landing page 2nd attempt",
+      "fullTitle": "Server launch test should return landing page 2nd attempt",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return landing page 3rd attempt",
+      "fullTitle": "Server launch test should return landing page 3rd attempt",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return landing page 4th attempt",
+      "fullTitle": "Server launch test should return landing page 4th attempt",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return landing page 5th attempt",
+      "fullTitle": "Server launch test should return landing page 5th attempt",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should return landing page 1st attempt",
+      "fullTitle": "Server launch test should return landing page 1st attempt",
+      "duration": 20,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return landing page 2nd attempt",
+      "fullTitle": "Server launch test should return landing page 2nd attempt",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return landing page 3rd attempt",
+      "fullTitle": "Server launch test should return landing page 3rd attempt",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return landing page 4th attempt",
+      "fullTitle": "Server launch test should return landing page 4th attempt",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return landing page 5th attempt",
+      "fullTitle": "Server launch test should return landing page 5th attempt",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
