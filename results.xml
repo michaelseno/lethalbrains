@@ -1,3 +1,4 @@
+<testsuites>
 <testsuite name="Mocha Tests" tests="5" failures="0" errors="0" skipped="0" timestamp="Tue, 05 Jun 2018 03:41:34 GMT" time="0.043">
 <testcase classname="Server launch test" name="should return landing page 1st attempt" time="0.02"/>
 <testcase classname="Server launch test" name="should return landing page 2nd attempt" time="0.005"/>
@@ -5,3 +6,4 @@
 <testcase classname="Server launch test" name="should return landing page 4th attempt" time="0.003"/>
 <testcase classname="Server launch test" name="should return landing page 5th attempt" time="0.003"/>
 </testsuite>
+</testsuites>
